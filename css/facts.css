@@ -1,0 +1,35 @@
+.container-fluid {
+    background-color: black;
+}
+
+.container {
+    background-color: black;
+}
+
+.row.g-4 {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center {
+    display: flex;
+    width: 23%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2.text-white {
+
+    font-family: Barlow, sans-serif;
+    color: white;
+}
+
+p.text-white {
+    font-family: Barlow, sans-serif;
+    color: white;
+}
