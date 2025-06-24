@@ -1,5 +1,8 @@
+
  <!-- Content -->
   <div style="min-height: 50vh; padding-top: calc(109px)">
+    <link rel="stylesheet" href="/path/to/style.css">
+
     <!-- Carousel -->
     <div id="fitCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="15000"
       style="height: 100vh; overflow: hidden">
