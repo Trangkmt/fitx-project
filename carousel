@@ -1,1 +1,92 @@
+ <!-- Content -->
+  <div style="min-height: 50vh; padding-top: calc(109px)">
+    <!-- Carousel -->
+    <div id="fitCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="15000"
+      style="height: 100vh; overflow: hidden">
+      <!-- Indicators -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#fitCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#fitCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#fitCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
 
+      <!-- Slides -->
+      <div class="carousel-inner" style="height: 100%">
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="height: 100%">
+          <img src="https://fit.neu.edu.vn/admin/uploads/carousel_bg_5_1b91f2df30.jpg" class="d-block w-100"
+            style="object-fit: cover; height: 100%;" alt="Slide 1">
+          <div class="carousel-caption d-flex align-items-center h-100">
+            <div class="container">
+              <div class="row align-items-center p-md-5">
+                <div class="col-lg-7 text-start">
+                  <h5 class="fw-bold text-uppercase text-white mb-3">Ngành</h5>
+                  <h1 class="display-3 fw-bold text-white mb-4">Kỹ thuật phần mềm</h1>
+                  <a href="#" class="btn btn-primary px-5 py-3 rounded-0">Xem thêm <i
+                      class="fa fa-arrow-right ms-2"></i></a>
+                </div>
+                <div class="col-lg-5 d-none d-lg-block">
+                  <img src="https://fit.neu.edu.vn/admin/uploads/carousel_1_230f77f2f7.png" class="img-fluid"
+                    alt="Minh họa">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="height: 100%">
+          <img src="https://fit.neu.edu.vn/admin/uploads/carousel_bg_2_a830452f71.jpg" class="d-block w-100"
+            style="object-fit: cover; height: 100%;" alt="Slide 2">
+          <div class="carousel-caption d-flex align-items-center h-100">
+            <div class="container">
+              <div class="row align-items-center p-md-5">
+                <div class="col-lg-7 text-start">
+                  <h5 class="fw-bold text-uppercase text-white mb-3">Ngành</h5>
+                  <h1 class="display-3 fw-bold text-white mb-4">Công nghệ thông tin</h1>
+                  <a href="#" class="btn btn-primary px-5 py-3 rounded-0">Xem thêm <i
+                      class="fa fa-arrow-right ms-2"></i></a>
+                </div>
+                <div class="col-lg-5 d-none d-lg-block">
+                  <img src="https://fit.neu.edu.vn/admin/uploads/carousel_2_3722d9634c.png" class="img-fluid"
+                    alt="Minh họa">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="height: 100%">
+          <img src="https://fit.neu.edu.vn/admin/uploads/carousel_bg_3_d70ae12b22.jpg" class="d-block w-100"
+            style="object-fit: cover; height: 100%;" alt="Slide 3">
+          <div class="carousel-caption d-flex align-items-center h-100">
+            <div class="container">
+              <div class="row align-items-center p-md-5">
+                <div class="col-lg-7 text-start">
+                  <h5 class="fw-bold text-uppercase text-white mb-3">Ngành</h5>
+                  <h1 class="display-3 fw-bold text-white mb-4">Khoa học máy tính</h1>
+                  <a href="#" class="btn btn-primary px-5 py-3 rounded-0">Xem thêm <i
+                      class="fa fa-arrow-right ms-2"></i></a>
+                </div>
+                <div class="col-lg-5 d-none d-lg-block">
+                  <img src="https://fit.neu.edu.vn/admin/uploads/carousel_3_3e0f558832.png" class="img-fluid"
+                    alt="Minh họa">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#fitCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#fitCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
