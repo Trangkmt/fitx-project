@@ -1,0 +1,115 @@
+/* Custom styles for the navbar */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Barlow', sans-serif;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.1);
+}
+
+.navbar-brand h1 {
+    color: #0056D2;
+    /* Primary color matching the reference site */
+    font-weight: 700;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+
+.navbar-brand h2 {
+    color: #333;
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+
+.nav-link {
+    color: #333 !important;
+    font-weight: 500;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 10px 15px !important;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #0056D2 !important;
+    background-color: rgba(0, 86, 210, 0.1);
+}
+
+.dropdown-toggle::after {
+    display: none;
+    /* Hide default Bootstrap arrow */
+}
+
+.bi-chevron-down {
+    font-size: 0.8rem;
+    margin-left: 5px;
+}
+
+.dropdown-menu {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0;
+    margin-top: 0;
+}
+
+.dropdown-item {
+    font-size: 0.9rem;
+    color: #333;
+    padding: 8px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: #0056D2;
+    color: #fff !important;
+}
+
+@media (max-width: 991.98px) {
+    .navbar-nav {
+        padding: 1rem;
+    }
+
+    .nav-link {
+        font-size: 1.1rem;
+        padding: 10px 0 !important;
+    }
+
+    .dropdown-menu {
+        border: none;
+        background-color: #f8f9fa;
+    }
+
+    .navbar-brand h1,
+    .navbar-brand h2 {
+        font-size: 1rem;
+    }
+
+    .navbar-collapse {
+        margin-right: 0 !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .navbar-brand img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .navbar-brand h1,
+    .navbar-brand h2 {
+        display: none;
+        /* Hide text on small screens */
+    }
+}
