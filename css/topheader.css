@@ -1,0 +1,53 @@
+/* top-header.css */
+
+.top-header {
+    background-color: #0d6efd;
+    /* Bootstrap primary */
+    color: white;
+    padding: 0.5rem 0;
+    font-family: 'Roboto', sans-serif;
+    position: fixed;
+    /* giữ cố định */
+    top: 0;
+    /* gắn sát đỉnh trang */
+    left: 0;
+    width: 100%;
+    /* kéo dài toàn bộ chiều ngang */
+    z-index: 1050;
+    /* cao hơn nội dung khác */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* đổ bóng nhẹ */
+}
+
+/* Thêm margin-top cho nội dung bên dưới để tránh bị che */
+body {
+    margin-top: 60px;
+    /* hoặc tùy chiều cao thực tế của header */
+}
+
+.top-header a {
+    font-size: 0.95rem;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.top-header a:hover {
+    color: #ffc107;
+    text-decoration: underline;
+}
+
+.top-header .nav-link {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+.top-header .dropdown-menu {
+    font-size: 0.9rem;
+    min-width: 200px;
+}
+
+.top-header .dropdown-menu a:hover {
+    background-color: #f8f9fa;
+    color: #0d6efd;
+}
