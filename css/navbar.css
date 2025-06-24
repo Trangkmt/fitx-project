@@ -1,0 +1,132 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&display=swap');
+
+/* Bootstrap & FontAwesome */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #fff !important;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 0 !important;
+    position: fixed;
+    top: 34px;
+    z-index: 999;
+    width: 100%;
+    transition: 0.5s;
+}
+
+/* Logo & brand */
+.navbar-brand img {
+    width: 48px;
+    height: 48px;
+}
+
+.navbar-brand h1,
+.navbar-brand h2 {
+    margin: 0;
+    line-height: 1.2;
+    white-space: nowrap;
+}
+
+.navbar-brand h1 {
+    font-size: 1.125rem;
+    color: #033564;
+    font-weight: 600;
+}
+
+.navbar-brand h2 {
+    font-size: 0.9rem;
+    color: #444;
+    font-weight: 400;
+}
+
+/* Navbar links */
+.navbar-nav .nav-link {
+    color: #333;
+    font-weight: 500;
+    padding: 0.75rem 1rem;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+    color: #0061bb;
+}
+
+/* Dropdown menu */
+.navbar-nav .dropdown-menu {
+    border: none;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 0.2rem;
+    animation: fadeIn 0.3s ease-in-out;
+    border-radius: 0;
+}
+
+.navbar-nav .dropdown-item {
+    padding: 0.5rem 1rem;
+    color: #333;
+    font-size: 0.9rem;
+}
+
+.navbar-nav .dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: #0061bb;
+}
+
+.navbar-nav .dropdown-toggle::after {
+    margin-left: 0.35rem;
+    vertical-align: middle;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(68, 68, 68, 0.75)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .navbar-nav {
+        background-color: #fff;
+    }
+
+    .navbar-collapse {
+        background-color: #fff;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 0.75rem 1.25rem;
+    }
+
+    .navbar-brand {
+        padding-left: 1rem;
+    }
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
